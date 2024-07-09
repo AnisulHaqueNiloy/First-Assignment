@@ -1,0 +1,63 @@
+.banner3_containers {
+  margin: 20px auto;
+  width: 1600px;
+  height: 600px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner3_up {
+  padding: 47px 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner3_down {
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -85px;
+  margin-right: -85px;
+}
+
+.banner3_card {
+  width: 400px;
+  height: 400px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  border-radius: 14px;
+}
+
+#one {
+  background: rgba(255, 76, 30, 0.05);
+}
+#two {
+  background: rgba(0, 76, 232, 0.05);
+}
+#three {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+img {
+  margin: 26px 32px;
+}
+
+.btn {
+  margin: 10px 40px;
+  background: transparent;
+}
+.btn_url {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  background: transparent;
+}
+
+.black {
+  color: black;
+}

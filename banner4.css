@@ -1,0 +1,62 @@
+.banner4_containers {
+  height: 1800px;
+  margin: 120px auto;
+  width: 1400px;
+
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner4_child {
+  width: 1200px;
+  height: 1400px;
+  background: transparent;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
+.banner4_up {
+  padding: 47px 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  gap: 20px;
+}
+
+.banner4_down {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px;
+  margin-left: -200px;
+  margin-right: -200px;
+}
+
+.banner_card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 14px;
+  padding: 40px 20px;
+}
+.banner_card_container img {
+  width: 94px;
+  height: 84px;
+}
+
+.btn {
+  margin: 10px 40px;
+  background: transparent;
+}
+.btn_url {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  background: transparent;
+}

@@ -1,7 +1,7 @@
 .banner1_containers {
-  height: 1600px;
-  margin: 74px auto;
-  width: 1400px;
+  height: 1800px;
+  margin: 100px auto 20px;
+  width: 1600px;
   background-color: rgba(13, 19, 33, 0.02);
   border-radius: 14px;
   display: flex;
@@ -9,7 +9,7 @@
 }
 
 .banner1_child {
-  width: 1200px;
+  width: 1400px;
   height: 1400px;
   background: transparent;
   margin: 40px auto;

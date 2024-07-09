@@ -1,0 +1,27 @@
+.banner2_containers {
+  height: 1000px;
+  margin: 0px auto;
+  width: 1600px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner2_up {
+  padding: 47px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner2_down {
+  padding: 47px 47px;
+  border-radius: 14px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+iframe {
+  border-radius: 14px;
+}

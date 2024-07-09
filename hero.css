@@ -4,7 +4,8 @@
 }
 
 .header_container {
-  margin: 50px 150px;
+  width: 1600px;
+  margin: 40px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,6 +29,7 @@
 }
 
 .hero_container {
+  margin: 0 auto;
   background-image: url(./image/Hero-bg.png);
   background-repeat: no;
   height: 680px;
