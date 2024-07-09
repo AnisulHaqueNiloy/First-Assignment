@@ -1,0 +1,120 @@
+.banner1_containers {
+  height: 1600px;
+  margin: 74px auto;
+  width: 1400px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner1_child {
+  width: 1200px;
+  height: 1400px;
+  background: transparent;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
+.banner1_up {
+  padding: 47px 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  gap: 20px;
+}
+
+.banner1_title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  background: transparent;
+}
+
+.banner1_desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  background: transparent;
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.banner1_down {
+  padding: 47px 47px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 14px;
+  padding: 40px 20px;
+}
+.card_left {
+  background: transparent;
+}
+
+.card_right {
+  background: transparent;
+  padding: 10px 40px;
+}
+.card_right img {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background: transparent;
+}
+
+.card_title {
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.card_desc {
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(13, 19, 33, 0.7);
+}
+.card_btn {
+  margin: 10px 40px;
+  height: 40px;
+  width: 160px;
+  background-color: white;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+}
+
+.card_btn a {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(13, 19, 33, 0.7);
+  background: transparent;
+}
+
+#mid_card {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
