@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.heading_url {
+.download {
   font-weight: 600;
   width: 200px;
   height: 26px;
@@ -18,9 +18,10 @@
   text-align: center;
   padding: 17px 24px;
   border-radius: 8px;
+  color: rgb(13, 19, 33);
 }
 
-.download {
+.heading_url {
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
@@ -30,4 +31,46 @@
   background-image: url(./image/Hero-bg.png);
   background-repeat: no;
   height: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero_icon {
+  background: transparent;
+}
+
+.hero_title {
+  background: transparent;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+
+.hero_desc {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.hero_contact_url {
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.contact_text {
+  background: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  align-items: center;
+  padding: 20px 14px;
+  color: white;
 }
