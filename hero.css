@@ -67,6 +67,11 @@
   background-color: black;
 }
 
+.hero_contact_url:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 2px 2px 8px 6px;
+}
+
 .contact_text {
   background: transparent;
   font-size: 18px;
