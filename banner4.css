@@ -1,6 +1,5 @@
 .banner4_containers {
-  height: 1800px;
-  margin: 120px auto;
+  margin: 120px auto 60px;
   width: 1400px;
 
   border-radius: 14px;
@@ -10,7 +9,7 @@
 
 .banner4_child {
   width: 1200px;
-  height: 1400px;
+
   background: transparent;
   margin: 40px auto;
   border-radius: 8px;
@@ -44,6 +43,7 @@
   border-radius: 14px;
   padding: 40px 20px;
 }
+
 .banner_card_container img {
   width: 94px;
   height: 84px;
